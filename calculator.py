@@ -1,6 +1,6 @@
 print("Welcome to Python Calculator")
 def calculator():
-    print()
+    print()        #Just for blank line
     num1 = float(input("Enter first number: "))
     num2 = float(input("Enter second number: "))
     print("Choose operation:")
@@ -27,8 +27,9 @@ def calculator():
     print()
     print("Result:", result)
 
-while True:
+while True:        # Method to run infinite times.
     calculator()
     repeat = input("Do you want to continue? (y/n): ")
     if repeat != "y":
+
         break
